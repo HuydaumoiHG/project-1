@@ -1,0 +1,41 @@
+.row1 {
+    display: grid;
+    grid-template-columns: 10% 60% 10% 10% 10% ;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image-style {
+        width: 100%;
+        position: relative;
+}
+.image-style > img {
+    height: 100%;
+    object-fit: cover;
+}
+.text-into-image {
+}
+.text-into-image > p {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    top: 120px;
+    left: 50px;
+    width: 500px;
+    user-select: none;
+    text-shadow: #000 1px 0 10px;
+}
+.text-sl {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 170px;
+    left: 50px;
+    width: 500px;
+    user-select: none;
+    text-shadow: #000 1px 0 10px;
+}
